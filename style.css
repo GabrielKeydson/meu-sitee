@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: 
+    margin 0; ;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.console-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.console {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 50px;
+    width: 200px;
+    background-color: #ffffff;
+}
+
+.console img {
+    max-width: 100%;
+    height: auto;
+}
+
+.console-title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.console-price {
+    color: #000000;
+    font-size: 18px;
+}
